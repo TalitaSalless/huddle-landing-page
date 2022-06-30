@@ -17,3 +17,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
+### Screenshot com responsivo
+
+![](https://github.com/TalitaSalless/huddle-landing-page/blob/main/src/images/talitasalless.github.io_huddle-landing-page_.png)
+![](https://github.com/TalitaSalless/huddle-landing-page/blob/main/src/images/talitasalless.github.io_huddle-landing-page_(iPhone%20SE).png)
