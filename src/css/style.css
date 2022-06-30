@@ -1,0 +1,115 @@
+:root {
+    --cor-violet: hsl(257, 40%, 49%);
+    --cor-magenta:hsl(300, 69%, 71%);
+}
+html {
+    font-size: 62.5%;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--cor-violet);
+    background-image: url('../images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin: auto;
+    max-width: 100%;
+    width: 1200px;
+}
+
+.cabecalho {
+    margin: 10px 20px;
+}
+
+.cabecalho img {
+    max-width: 100%;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagem img{
+    max-width: 100%;
+}
+
+.informacoes {
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.informacoes h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.informacoes p {
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: justify;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.informacoes .btn{
+    background-color: #fff;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 1.9rem;
+    padding: 15px 80px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: var(--cor-magenta);
+    border-style: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.informacoes .btn:hover{
+    background-color: var(--cor-magenta);
+    color: #fff;
+}
+
+.rede-social {
+    padding: 0;
+    list-style-type: none; 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rede-social a{
+    font-size: 2rem;
+    margin-left: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: 0.3s;
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.rede-social a:hover{
+    border-color: var(--cor-magenta);
+    color: var(--cor-magenta);
+}

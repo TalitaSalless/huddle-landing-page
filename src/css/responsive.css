@@ -1,0 +1,19 @@
+@media (max-width: 768px){
+    body {
+        background-image: url("../images/bg-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .informacoes {
+        text-align: center;
+        width: 100%;
+    }
+    .rede-social {
+        justify-content: center;
+    }
+}
