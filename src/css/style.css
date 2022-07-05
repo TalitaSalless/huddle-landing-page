@@ -1,14 +1,16 @@
 :root {
     --cor-violet: hsl(257, 40%, 49%);
     --cor-magenta:hsl(300, 69%, 71%);
+    --font-body: 'Open Sans', sans-serif;
+    --font-heading: 'Poppins', sans-serif;
 }
 html {
     font-size: 62.5%;
 }
-* {
+* { 
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -58,15 +60,17 @@ body {
     font-size: 4rem;
     font-weight: 600;
     margin-bottom: 30px;
+    font-family: var(--font-heading);
 }
 
 .informacoes p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #fff;
-    text-align: justify;
+    font-family: var(--font-body);
     font-weight: 400;
     opacity: 0.8;
     margin-bottom: 30px;
+    
 }
 
 .informacoes .btn{

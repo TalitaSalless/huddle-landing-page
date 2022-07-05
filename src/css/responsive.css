@@ -5,7 +5,7 @@
         background-size: 100%;
     }
     .conteudo {
-        display: flex;
+        margin: 0px 20px 20px 20px;
         flex-direction: column;
         margin: 50px 0;
     }
@@ -13,7 +13,20 @@
         text-align: center;
         width: 100%;
     }
-    .rede-social {
+    .informacoes h1{
+        font-size: 2.5rem;
+    }
+    .informacoes p{
+        font-size: 1.7rem;
+        line-height: 2.6rem;
+    }
+    .informacoes .btn{
+        color: var(--cor-violet);
+        margin-bottom: 0px;
+    }
+    .rede-social{
+        font-size: 1rem;
+        margin: -20px 0px 50px 0px;
         justify-content: center;
     }
 }
