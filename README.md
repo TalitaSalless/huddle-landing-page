@@ -3,9 +3,8 @@ Esta é uma solução para o desafio de criar a página de destino (landing page
 
 <h3> Pré-visualização </h3>
 
-![image](https://user-images.githubusercontent.com/77306310/177430254-47fe4e57-2744-4477-91b3-483ac7048f57.png)
+![image](https://user-images.githubusercontent.com/77306310/177430254-47fe4e57-2744-4477-91b3-483ac7048f57.png)  
 ![image](https://user-images.githubusercontent.com/77306310/177430479-25bd30e5-753b-4185-bc31-9085059e831b.png)
-
 
 <h3> Recursos </h3>
 Os usuários podem visualizar o layout ideal para a página, dependendo do tamanho da tela de seu dispositivo.
@@ -19,3 +18,5 @@ Sinta-se à vontade para usar este projeto como referência ou modelo para seus 
 <h3> Créditos </h3>
 Este projeto foi concluído como parte de um desafio no Frontend Mentor. O design e os recursos foram fornecidos pelo Frontend Mentor.
 
+
+<img src=”https://user-images.githubusercontent.com/77306310/177430254-47fe4e57-2744-4477-91b3-483ac7048f57.png”>
